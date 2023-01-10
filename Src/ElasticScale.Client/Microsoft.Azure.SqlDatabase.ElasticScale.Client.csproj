@@ -14,16 +14,13 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <Version>2.4.0-preview1</Version>
     <Authors>Microsoft</Authors>
-    <TargetFrameworks>net451;net46;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net48</TargetFrameworks>
     <PackageTags>
       Microsoft;Elastic;Scale;Azure;SQL;DB;Database;Shard;Sharding;Management;Query;azureofficial</PackageTags>
     <PackageReleaseNotes>Added support for SqlConnection.AccessToken. This can be provided by using
       OpenConnection methods that receive SqlConnectionInfo parameter. Using AccessToken requires
       .NET 4.6 or higher, or .NET Standard with System.Data.SqlClient 4.6 or higher.</PackageReleaseNotes>
-    <PackageIcon>http://go.microsoft.com/fwlink/?LinkID=288890</PackageIcon>
     <PackageProjectUrl>https://github.com/Azure/elastic-db-tools</PackageProjectUrl>
-    <PackageLicense>https://github.com/Azure/elastic-db-tools/blob/master/LICENSE</PackageLicense>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Azure/elastic-db-tools</RepositoryUrl>
     <RuntimeIdentifiers>win;unix</RuntimeIdentifiers>
